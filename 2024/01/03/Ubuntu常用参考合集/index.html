@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="Alan.J">
+    
+    <title>
+        
+            Ubuntu常用参考合集 |
+        
+        Alan &#39;s Blog
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+        <link rel="shortcut icon" href="/images/logo.svg">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.0.6/font/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.0.6/font/css/regular.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.0.6/font/css/solid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.0.6/font/css/brands.min.css">
+    
+    <script class="keep-theme-configurations">
+    const KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"en","path":"search.json"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#000000","title":"Alan 's Blog","author":"Alan.J","avatar":"/images/avatar.jpg","logo":"/images/logo.svg","favicon":"/images/logo.svg"},"menu":{"Archives":"/archives","Categories":"/categories"},"first_screen":{"enable":true,"background_img":"/images/bg.webp","background_img_dark":"/images/bg.webp","description":null,"hitokoto":true},"social_contact":{"enable":true,"links":{"github":"https://github.com/alan-hi","weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"facebook":null,"email":null}},"scroll":{"progress_bar":false,"percent":true,"hide_header":true},"home":{"category":false,"tag":false,"announcement":null},"post":{"author_badge":{"enable":false,"level_badge":false,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null}},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":true,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":true,"preload":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.21"},"waline":{"server_url":null,"reaction":false,"version":2},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":false},"cdn":{"enable":true,"provider":"cdnjs"},"pjax":{"enable":false},"footer":{"since":2024,"word_count":false,"icp":{"enable":false,"record_code":null,"url":"https://beian.miit.gov.cn"},"site_deploy":{"enable":false,"provider":"github","url":null},"shields_style":{"enable":true,"custom":[{"link_url":null,"img_url":null}]}},"inject":{"enable":false,"css":[null],"js":[null]},"root":"","version":"4.0.6"}
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
+    KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original post title","author":"Original post author","link":"Original post link"}
+  </script>
+<meta name="generator" content="Hexo 7.0.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+<main class="page-container border-box">
+
+    <!-- home first screen  -->
+    
+
+    <!-- page content -->
+    <div class="page-main-content border-box">
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="border-box header-content">
+        <div class="left border-box">
+            
+                <a class="logo-image border-box" href="/">
+                    <img src="/images/logo.svg">
+                </a>
+            
+            <a class="site-name border-box" href="/">
+               Alan &#39;s Blog
+            </a>
+        </div>
+
+        <div class="right border-box">
+            <div class="pc">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a class=""
+                           href="/"
+                        >HOME</a>
+                    </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >ARCHIVES</a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/categories"
+                            >CATEGORIES</a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas search fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            <li class="drawer-menu-item flex-center">
+                <a class=""
+                   href="/"
+                >HOME</a>
+            </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives"
+                    >ARCHIVES</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/categories"
+                    >CATEGORIES</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle border-box">
+
+            <div class="main-content border-box">
+                
+
+                    
+<div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+        <div class="post-content-container border-box">
+            
+
+            <div class="post-content-bottom border-box">
+                
+                    <div class="post-title">
+                        Ubuntu常用参考合集
+                    </div>
+                
+
+                
+                    <div class="post-header border-box">
+                        
+                            <div class="avatar-box border-box">
+                                <img src="/images/avatar.jpg">
+                            </div>
+                        
+                        <div class="info-box">
+                            <div class="author border-box">
+                                <span class="name">Alan</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
+
+<div class="post-meta-info-container border-box post">
+    <div class="post-meta-info border-box">
+        
+
+        
+            <span class="meta-info-item post-create-date">
+                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
+                <span class="datetime">2024-01-03 17:03:53</span>
+            </span>
+
+            <span class="meta-info-item post-update-date">
+                <i class="icon fa-solid fa-file-pen"></i>&nbsp;
+                <span class="datetime" data-updated="Wed Jan 03 2024 17:12:53 GMT+0800">2024-01-03 17:12:53</span>
+            </span>
+        
+
+        
+            <span class="meta-info-item post-category border-box"><i class="icon fas fa-folder"></i>&nbsp;
+                <ul class="post-category-ul">
+                    
+                            <li class="category-item"><a href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></li>
+                        
+                    
+                            <li class="category-item">&nbsp;<i class="icon fas fa-angle-right"></i>&nbsp;<a href="/categories/%E6%8A%80%E6%9C%AF/linux/">linux</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="post-content keep-markdown-body">
+                    
+
+                    <p><img   src="https://img2023.cnblogs.com/blog/2891632/202307/2891632-20230708014634457-864695310.png" ><br><img   src="https://img2023.cnblogs.com/blog/2891632/202307/2891632-20230708014720259-2061954570.png" ></p>
+<h1 id="系统安装"><a href="#系统安装" class="headerlink" title="系统安装"></a>系统安装</h1><h2 id="双系统安装、Ubuntu-to-Go"><a href="#双系统安装、Ubuntu-to-Go" class="headerlink" title="双系统安装、Ubuntu to Go"></a>双系统安装、Ubuntu to Go</h2><blockquote>
+<p><a class="link"   target="_blank" rel="noopener" href="https://www.cnblogs.com/alanjiang/p/16322156.html" >https://www.cnblogs.com/alanjiang/p/16322156.html<i class="fas fa-external-link-alt"></i></a></p>
+</blockquote>
+<h2 id="rEFInd多系统引导安装"><a href="#rEFInd多系统引导安装" class="headerlink" title="rEFInd多系统引导安装"></a>rEFInd多系统引导安装</h2><blockquote>
+<p><a class="link"   target="_blank" rel="noopener" href="https://www.cnblogs.com/alanjiang/p/17534204.html" >https://www.cnblogs.com/alanjiang/p/17534204.html<i class="fas fa-external-link-alt"></i></a></p>
+</blockquote>
+<h2 id="升级内核"><a href="#升级内核" class="headerlink" title="升级内核"></a>升级内核</h2><blockquote>
+<p><a class="link"   target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/133323571" >https://zhuanlan.zhihu.com/p/133323571<i class="fas fa-external-link-alt"></i></a></p>
+</blockquote>
+<h1 id="安装优化"><a href="#安装优化" class="headerlink" title="安装优化"></a>安装优化</h1><h2 id="国内源"><a href="#国内源" class="headerlink" title="国内源"></a>国内源</h2><blockquote>
+<p>直接在软件更新里自动设置即可</p>
+</blockquote>
+<h2 id="zsh-Oh-my-zsh"><a href="#zsh-Oh-my-zsh" class="headerlink" title="zsh &amp; Oh-my-zsh"></a>zsh &amp; Oh-my-zsh</h2><blockquote>
+<p><a class="link"   target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1dX4y127JL/" >https://www.bilibili.com/video/BV1dX4y127JL/<i class="fas fa-external-link-alt"></i></a><br><a class="link"   target="_blank" rel="noopener" href="https://blog.csdn.net/qq_44797987/article/details/115290048" >https://blog.csdn.net/qq_44797987/article/details/115290048<i class="fas fa-external-link-alt"></i></a><br><a class="link"   target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/598042205" >https://zhuanlan.zhihu.com/p/598042205<i class="fas fa-external-link-alt"></i></a><br>powerlevel10k <a class="link"   target="_blank" rel="noopener" href="https://blog.csdn.net/qq_36835255/article/details/128101588" >https://blog.csdn.net/qq_36835255/article/details/128101588<i class="fas fa-external-link-alt"></i></a></p>
+</blockquote>
+<h1 id="常用应用安装"><a href="#常用应用安装" class="headerlink" title="常用应用安装"></a>常用应用安装</h1><h2 id="Pycharm"><a href="#Pycharm" class="headerlink" title="Pycharm"></a>Pycharm</h2><blockquote>
+<p><a class="link"   target="_blank" rel="noopener" href="https://blog.csdn.net/m0_37758063/article/details/111573552" >https://blog.csdn.net/m0_37758063/article/details/111573552<i class="fas fa-external-link-alt"></i></a></p>
+</blockquote>
+<h2 id="V2raya"><a href="#V2raya" class="headerlink" title="V2raya"></a>V2raya</h2><blockquote>
+<p><a class="link"   target="_blank" rel="noopener" href="https://v2raya.org/docs/prologue/installation/" >https://v2raya.org/docs/prologue/installation/<i class="fas fa-external-link-alt"></i></a> （无法则打开看下一个）<br><a class="link"   target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/625742241" >https://zhuanlan.zhihu.com/p/625742241<i class="fas fa-external-link-alt"></i></a> </p>
+</blockquote>
+<h2 id="anaconda"><a href="#anaconda" class="headerlink" title="anaconda"></a>anaconda</h2><blockquote>
+<p><a class="link"   target="_blank" rel="noopener" href="https://www.cnblogs.com/alanjiang/p/17535912.html" >https://www.cnblogs.com/alanjiang/p/17535912.html<i class="fas fa-external-link-alt"></i></a></p>
+</blockquote>
+<h2 id="docker"><a href="#docker" class="headerlink" title="docker"></a>docker</h2><blockquote>
+<p><a class="link"   target="_blank" rel="noopener" href="https://docker-practice.github.io/zh-cn/install/ubuntu.html" >https://docker-practice.github.io/zh-cn/install/ubuntu.html<i class="fas fa-external-link-alt"></i></a><br><a class="link"   target="_blank" rel="noopener" href="https://docs.docker.com/engine/install/ubuntu/" >https://docs.docker.com/engine/install/ubuntu/<i class="fas fa-external-link-alt"></i></a><br><a class="link"   target="_blank" rel="noopener" href="https://blog.csdn.net/m0_37886429/article/details/80323149" >https://blog.csdn.net/m0_37886429/article/details/80323149<i class="fas fa-external-link-alt"></i></a></p>
+</blockquote>
+<h2 id="man中文汉化"><a href="#man中文汉化" class="headerlink" title="man中文汉化"></a>man中文汉化</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install manpages-zh</span><br><span class="line">sudo echo &quot;alias cman=&#x27;man -M /usr/share/man/zh_CN&#x27;&quot;&gt;&gt;~/.zshrc #bash为 .bashrc</span><br></pre></td></tr></table></figure>
+
+<h2 id="微信-QQ"><a href="#微信-QQ" class="headerlink" title="微信&amp;QQ"></a>微信&amp;QQ</h2><blockquote>
+<p><a class="link"   target="_blank" rel="noopener" href="https://www.ubuntukylin.com/applications/119-cn.html" >https://www.ubuntukylin.com/applications/119-cn.html<i class="fas fa-external-link-alt"></i></a> wine安装了几次都报错orz 最后直接用Ukylin的wine版本 很方便<br><a class="link"   target="_blank" rel="noopener" href="https://im.qq.com/linuxqq/index.shtml" >https://im.qq.com/linuxqq/index.shtml<i class="fas fa-external-link-alt"></i></a> QQ竟然更新linux版本了！！</p>
+</blockquote>
+<h2 id="网易云音乐"><a href="#网易云音乐" class="headerlink" title="网易云音乐"></a>网易云音乐</h2><p>下载<br><a class="link"   target="_blank" rel="noopener" href="https://d1.music.126.net/dmusic/netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb" >https://d1.music.126.net/dmusic/netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb<i class="fas fa-external-link-alt"></i></a></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /opt/netease/netease-cloud-music/netease-cloud-music.bash</span><br><span class="line"></span><br><span class="line">#!/bin/sh</span><br><span class="line">HERE=&quot;$(dirname &quot;$(readlink -f &quot;$&#123;0&#125;&quot;)&quot;)&quot;</span><br><span class="line">export LD_LIBRARY_PATH=/opt/netease/netease-cloud-music/libs</span><br><span class="line">export QT_PLUGIN_PATH=&quot;$&#123;HERE&#125;&quot;/plugins</span><br><span class="line">export QT_QPA_PLATFORM_PLUGIN_PATH=&quot;$&#123;HERE&#125;&quot;/plugins/platforms</span><br><span class="line">#添加下面这句</span><br><span class="line">cd /lib/x86_64-linux-gnu/  </span><br><span class="line">exec &quot;$&#123;HERE&#125;&quot;/netease-cloud-music $@</span><br></pre></td></tr></table></figure>
+<p>就可以打开啦！</p>
+<h1 id="常见问题解决"><a href="#常见问题解决" class="headerlink" title="常见问题解决"></a>常见问题解决</h1><h2 id="windows和ubuntu时间同步"><a href="#windows和ubuntu时间同步" class="headerlink" title="windows和ubuntu时间同步"></a>windows和ubuntu时间同步</h2><blockquote>
+<p><a class="link"   target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/585711817" >https://zhuanlan.zhihu.com/p/585711817<i class="fas fa-external-link-alt"></i></a><br><a class="link"   target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/492885761" >https://zhuanlan.zhihu.com/p/492885761<i class="fas fa-external-link-alt"></i></a></p>
+</blockquote>
+<h2 id="开机自动挂载其他硬盘-方便直接访问windows文件"><a href="#开机自动挂载其他硬盘-方便直接访问windows文件" class="headerlink" title="开机自动挂载其他硬盘 方便直接访问windows文件"></a>开机自动挂载其他硬盘 方便直接访问windows文件</h2><blockquote>
+<p><a class="link"   target="_blank" rel="noopener" href="https://blog.csdn.net/qq_35451572/article/details/79541106" >https://blog.csdn.net/qq_35451572/article/details/79541106<i class="fas fa-external-link-alt"></i></a></p>
+</blockquote>
+<h2 id="桌面设置为中文时单独设置shell语言为英文"><a href="#桌面设置为中文时单独设置shell语言为英文" class="headerlink" title="桌面设置为中文时单独设置shell语言为英文"></a>桌面设置为中文时单独设置shell语言为英文</h2><p>在sh配置文件(zsh：.zshrc &#x2F; bash：.bashrc)添加或修改以下命令<br>修改配置文件后重启shell生效或source 配置文件</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">export LANGUAGE=en_US </span><br><span class="line">export LANG=en_US.UTF-8 </span><br></pre></td></tr></table></figure>
+<h2 id="user-is-not-in-the-sudoers-file"><a href="#user-is-not-in-the-sudoers-file" class="headerlink" title="user is not in the sudoers file."></a>user is not in the sudoers file.</h2><p>有一次不知道是不是错用了usermod，导致重新登录后user不在root组中<br>目前添加用户到root中有三种：</p>
+<ol>
+<li><p>修改&#x2F;etc&#x2F;sudoers文件<br>添加<code>user    ALL=(ALL:ALL) ALL</code><br>但此时软件更新管理等可能还是无法通过管理认证，需要重新设置sudo密码 <code>sudo passwd</code></p>
+</li>
+<li><p>adduser（推荐）<br><code>sudo adduser user sudo</code></p>
+<p>adduser会自动创建用户目录和密码，useradd不会</p>
+</li>
+<li><p>useradd</p>
+</li>
+</ol>
+<p>都需要先获取root权限才可以，如果碰巧原本就一个用户…无法进入<br>那就需要借用另一个linux引导系统 &#x2F; WSL2挂载linux盘 &#x2F;diskgenius专业版 先修改sudoers文件再添加了</p>
+<p><strong>&lt;未完待续！&gt;</strong></p>
+
+                </div>
+
+                
+
+                <div class="post-bottom-tags-and-share border-box">
+                    <div>
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+
+                
+
+                
+                    <div class="post-nav border-box">
+                        
+                        
+                            <div class="next-post">
+                                <a class="next"
+                                   rel="next"
+                                   href="/2024/01/03/Ubuntu-to-go/"
+                                   title="Ubuntu to go"
+                                >
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">Ubuntu to go</span>
+                                        <span class="post-nav-item">Next posts</span>
+                                    </span>
+                                    <span class="right arrow-icon flex-center">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                    </div>
+                
+
+                
+                    
+
+
+
+
+
+
+                
+            </div>
+        </div>
+
+        
+            <div class="pc-post-toc right-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85"><span class="nav-text">系统安装</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E3%80%81Ubuntu-to-Go"><span class="nav-text">双系统安装、Ubuntu to Go</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#rEFInd%E5%A4%9A%E7%B3%BB%E7%BB%9F%E5%BC%95%E5%AF%BC%E5%AE%89%E8%A3%85"><span class="nav-text">rEFInd多系统引导安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8"><span class="nav-text">升级内核</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E4%BC%98%E5%8C%96"><span class="nav-text">安装优化</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BD%E5%86%85%E6%BA%90"><span class="nav-text">国内源</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#zsh-Oh-my-zsh"><span class="nav-text">zsh &amp; Oh-my-zsh</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8%E5%AE%89%E8%A3%85"><span class="nav-text">常用应用安装</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Pycharm"><span class="nav-text">Pycharm</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#V2raya"><span class="nav-text">V2raya</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#anaconda"><span class="nav-text">anaconda</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#docker"><span class="nav-text">docker</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#man%E4%B8%AD%E6%96%87%E6%B1%89%E5%8C%96"><span class="nav-text">man中文汉化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BE%AE%E4%BF%A1-QQ"><span class="nav-text">微信&amp;QQ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90"><span class="nav-text">网易云音乐</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3"><span class="nav-text">常见问题解决</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#windows%E5%92%8Cubuntu%E6%97%B6%E9%97%B4%E5%90%8C%E6%AD%A5"><span class="nav-text">windows和ubuntu时间同步</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8C%82%E8%BD%BD%E5%85%B6%E4%BB%96%E7%A1%AC%E7%9B%98-%E6%96%B9%E4%BE%BF%E7%9B%B4%E6%8E%A5%E8%AE%BF%E9%97%AEwindows%E6%96%87%E4%BB%B6"><span class="nav-text">开机自动挂载其他硬盘 方便直接访问windows文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A1%8C%E9%9D%A2%E8%AE%BE%E7%BD%AE%E4%B8%BA%E4%B8%AD%E6%96%87%E6%97%B6%E5%8D%95%E7%8B%AC%E8%AE%BE%E7%BD%AEshell%E8%AF%AD%E8%A8%80%E4%B8%BA%E8%8B%B1%E6%96%87"><span class="nav-text">桌面设置为中文时单独设置shell语言为英文</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#user-is-not-in-the-sudoers-file"><span class="nav-text">user is not in the sudoers file.</span></a></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom border-box">
+            
+<footer class="footer border-box">
+    <div class="border-box website-info-box shields">
+        
+            <div class="info-item">
+                
+                <a class="shields-item">
+                    <img src="https://img.shields.io/badge/Since-2024_--_2024-dodgerblue?style=flat-square">
+                </a>
+                
+                    <a class="shields-item" href="/">
+                        <img src="https://img.shields.io/badge/WebMaster-Alan.J-dodgerblue?style=flat-square">
+                    </a>
+                
+                
+                <a class="shields-item" href="https://hexo.io" target="_blank">
+                    <img src="https://img.shields.io/badge/Powered_by-Hexo-dodgerblue?style=flat-square">
+                </a>
+                <a class="shields-item" href="https://github.com/XPoet/hexo-theme-keep" target="_blank">
+                    <img class="shields-keep-version" src="https://img.shields.io/badge/Theme-Keep-dodgerblue?style=flat-square">
+                </a>
+                
+            </div>
+            
+                <div class="info-item">
+                    
+                        
+                    
+                </div>
+            
+        
+
+        <div class="count-item info-item shields">
+            
+
+            
+
+            
+        </div>
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    <!-- post tools -->
+    
+        <div class="post-tools right-toc">
+            <div class="post-tools-container border-box">
+    <ul class="tools-list border-box">
+        <!-- PC TOC show toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- PC go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <!-- side tools -->
+    <div class="side-tools">
+        <div class="side-tools-container border-box ">
+    <ul class="side-tools-list side-tools-show-handle border-box">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-toggle-theme-mode flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list border-box">
+        
+            <li class="tools-item toggle-show-toc-tablet flex-center">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        
+
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+
+        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
+            <i class="arrow fas fa-arrow-up"></i>
+            <span class="percent"></span>
+        </li>
+    </ul>
+</div>
+
+    </div>
+
+    <!-- image mask -->
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    <!-- local search -->
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="Search..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- tablet toc -->
+    
+        <div class="tablet-post-toc-mask">
+            <div class="tablet-post-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85"><span class="nav-text">系统安装</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%8C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E3%80%81Ubuntu-to-Go"><span class="nav-text">双系统安装、Ubuntu to Go</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#rEFInd%E5%A4%9A%E7%B3%BB%E7%BB%9F%E5%BC%95%E5%AF%BC%E5%AE%89%E8%A3%85"><span class="nav-text">rEFInd多系统引导安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%87%E7%BA%A7%E5%86%85%E6%A0%B8"><span class="nav-text">升级内核</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E4%BC%98%E5%8C%96"><span class="nav-text">安装优化</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%BD%E5%86%85%E6%BA%90"><span class="nav-text">国内源</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#zsh-Oh-my-zsh"><span class="nav-text">zsh &amp; Oh-my-zsh</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8%E5%AE%89%E8%A3%85"><span class="nav-text">常用应用安装</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Pycharm"><span class="nav-text">Pycharm</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#V2raya"><span class="nav-text">V2raya</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#anaconda"><span class="nav-text">anaconda</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#docker"><span class="nav-text">docker</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#man%E4%B8%AD%E6%96%87%E6%B1%89%E5%8C%96"><span class="nav-text">man中文汉化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BE%AE%E4%BF%A1-QQ"><span class="nav-text">微信&amp;QQ</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90"><span class="nav-text">网易云音乐</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3"><span class="nav-text">常见问题解决</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#windows%E5%92%8Cubuntu%E6%97%B6%E9%97%B4%E5%90%8C%E6%AD%A5"><span class="nav-text">windows和ubuntu时间同步</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E6%8C%82%E8%BD%BD%E5%85%B6%E4%BB%96%E7%A1%AC%E7%9B%98-%E6%96%B9%E4%BE%BF%E7%9B%B4%E6%8E%A5%E8%AE%BF%E9%97%AEwindows%E6%96%87%E4%BB%B6"><span class="nav-text">开机自动挂载其他硬盘 方便直接访问windows文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%A1%8C%E9%9D%A2%E8%AE%BE%E7%BD%AE%E4%B8%BA%E4%B8%AD%E6%96%87%E6%97%B6%E5%8D%95%E7%8B%AC%E8%AE%BE%E7%BD%AEshell%E8%AF%AD%E8%A8%80%E4%B8%BA%E8%8B%B1%E6%96%87"><span class="nav-text">桌面设置为中文时单独设置shell语言为英文</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#user-is-not-in-the-sudoers-file"><span class="nav-text">user is not in the sudoers file.</span></a></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        </div>
+    
+</main>
+
+
+
+<!-- common -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.0.6/js/utils.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.0.6/js/header-shrink.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.0.6/js/back2top.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.0.6/js/toggle-theme.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.0.6/js/code-block.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.0.6/js/main.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.0.6/js/libs/anime.min.js"></script>
+
+<!-- local-search -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.0.6/js/local-search.min.js"></script>
+
+
+<!-- lazyload -->
+
+
+<div class="">
+    
+        <!-- post-helper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.0.6/js/post/post-helper.min.js"></script>
+
+        <!-- toc -->
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.0.6/js/post/toc.min.js"></script>
+        
+
+        <!-- copyright-info -->
+        
+
+        <!-- share -->
+        
+    
+
+    <!-- category-page -->
+    
+
+    <!-- links-page -->
+    
+
+    <!-- photos-page -->
+    
+</div>
+
+<!-- mermaid -->
+
+
+<!-- pjax -->
+
+
+
+</body>
+</html>
