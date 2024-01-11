@@ -1,0 +1,8 @@
+:root {
+    --box-border-radius: 15px;
+    --first-screen-icon-size: 36px;
+    --first-screen-font-size: 40px;
+    --first-screen-font-color-light: #FFFFFF;
+    --first-screen-font-color-dark: #FFFFFF;
+    --post-update-datetime: none;
+}
